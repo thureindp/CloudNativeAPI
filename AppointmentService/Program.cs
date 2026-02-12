@@ -34,6 +34,7 @@ var app = builder.Build();
 
 
     // Generates /openapi/v1.json by default
+	//test
     app.MapOpenApi();
 
     // Swagger UI at /swagger pointing to the built-in OpenAPI JSON
