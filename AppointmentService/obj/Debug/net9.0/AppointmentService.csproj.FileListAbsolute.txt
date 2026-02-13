@@ -137,6 +137,7 @@ C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\AppointmentService.Assembl
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\AppointmentService.csproj.CoreCompileInputs.cache
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\AppointmentService.MvcApplicationPartsAssemblyInfo.cs
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\AppointmentService.MvcApplicationPartsAssemblyInfo.cache
+C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\AppointmentService.sourcelink.json
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\scopedcss\bundle\AppointmentService.styles.css
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\staticwebassets.build.json
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\staticwebassets.development.json
@@ -147,6 +148,7 @@ C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\staticwebassets\msbuild.bu
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.AppointmentService.props
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.AppointmentService.props
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\staticwebassets.pack.json
+C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\Appointm.2484BD13.Up2Date
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\AppointmentService.dll
 C:\CloudNativeAPI\AppointmentService\obj\Debug\net9.0\refint\AppointmentService.dll
