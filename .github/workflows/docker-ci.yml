@@ -30,26 +30,24 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-    
-    - name: Build AppointmentService Image
+      - name: Build AppointmentService Image
         run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/appointmentservice:latest \
-                 -t ${{ secrets.DOCKER_USERNAME }}/appointmentservice:${{ github.sha }} \
-                 ./AppointmentService
-        
-         
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/appointmentservice:latest \
+                       -t ${{ secrets.DOCKER_USERNAME }}/appointmentservice:${{ github.sha }} \
+                       ./AppointmentService
+
       - name: Build QueueService Image
         run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/queueservice:latest \
-                 -t ${{ secrets.DOCKER_USERNAME }}/queueservice:${{ github.sha }} \
-                 ./QueueService
-               
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/queueservice:latest \
+                       -t ${{ secrets.DOCKER_USERNAME }}/queueservice:${{ github.sha }} \
+                       ./QueueService
+
       - name: Push AppointmentService Image
         run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/appointmentservice:latest
-        docker push ${{ secrets.DOCKER_USERNAME }}/appointmentservice:${{ github.sha }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/appointmentservice:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/appointmentservice:${{ github.sha }}
 
       - name: Push QueueService Image
         run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/queueservice:latest
-        docker push ${{ secrets.DOCKER_USERNAME }}/queueservice:${{ github.sha }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/queueservice:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/queueservice:${{ github.sha }}
